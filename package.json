@@ -1,0 +1,33 @@
+{
+  "name": "erouter",
+  "description": "Express router",
+  "version": "0.1.0",
+  "homepage": "http://github.com/ohardy/i18n-erouter",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ohardy/i18n-erouter.git"
+  },
+  "private": true,
+  "author": {
+    "name": "Olivier Hardy",
+    "email": "ohardy@me.com"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "sprintf": ">=0.1.1",
+    "underscore.string": "*",
+    "methods": "*",
+    "debug": "*",
+    "connect": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  }
+}
