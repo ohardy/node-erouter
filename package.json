@@ -1,7 +1,7 @@
 {
   "name": "erouter",
   "description": "Express router",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "http://github.com/ohardy/i18n-erouter",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "underscore.string": "*",
     "methods": "*",
     "debug": "*",
-    "connect": "*"
+    "connect": "2.x"
   },
   "devDependencies": {
     "mocha": "*",
