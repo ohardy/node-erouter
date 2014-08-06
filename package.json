@@ -1,11 +1,14 @@
 {
   "name": "erouter",
   "description": "Express router",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "http://github.com/ohardy/i18n-erouter",
   "repository": {
     "type": "git",
     "url": "http://github.com/ohardy/i18n-erouter.git"
+  },
+  "scripts": {
+    "postinstall": "cake build"
   },
   "private": true,
   "author": {
