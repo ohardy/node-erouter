@@ -8,7 +8,7 @@
     "url": "http://github.com/ohardy/i18n-erouter.git"
   },
   "scripts": {
-    "postinstall": "cake build"
+    "postinstall": "./node_modules/.bin/cake build"
   },
   "private": true,
   "author": {
@@ -20,11 +20,12 @@
     "lib": "."
   },
   "dependencies": {
-    "sprintf": ">=0.1.1",
-    "underscore.string": "*",
-    "methods": "*",
+    "coffee-script": "^1.7.1",
+    "connect": "2.x",
     "debug": "*",
-    "connect": "2.x"
+    "methods": "*",
+    "sprintf": ">=0.1.1",
+    "underscore.string": "*"
   },
   "devDependencies": {
     "mocha": "*",
