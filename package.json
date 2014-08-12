@@ -1,14 +1,14 @@
 {
   "name": "erouter",
   "description": "Express router",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "homepage": "http://github.com/ohardy/i18n-erouter",
   "repository": {
     "type": "git",
     "url": "http://github.com/ohardy/i18n-erouter.git"
   },
   "scripts": {
-    "prepublish": "./node_modules/.bin/gulp build"
+    "postinstall": "gulp build"
   },
   "private": true,
   "author": {
