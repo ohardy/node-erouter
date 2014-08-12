@@ -1,14 +1,14 @@
 {
   "name": "erouter",
   "description": "Express router",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "homepage": "http://github.com/ohardy/i18n-erouter",
   "repository": {
     "type": "git",
     "url": "http://github.com/ohardy/i18n-erouter.git"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/cake build"
+    "postinstall": "./node_modules/.bin/gulp build"
   },
   "private": true,
   "author": {
@@ -23,6 +23,10 @@
     "coffee-script": "*",
     "connect": "2.x",
     "debug": "*",
+    "del": "^0.1.1",
+    "gulp": "^3.8.7",
+    "gulp-coffee": "^2.1.1",
+    "gulp-util": "^3.0.0",
     "methods": "*",
     "sprintf": ">=0.1.1",
     "underscore.string": "*"
