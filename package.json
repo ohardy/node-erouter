@@ -1,7 +1,7 @@
 {
   "name": "erouter",
   "description": "Express router",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "http://github.com/ohardy/i18n-erouter",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "lib": "."
   },
   "dependencies": {
-    "coffee-script": "^1.7.1",
+    "coffee-script": "*",
     "connect": "2.x",
     "debug": "*",
     "methods": "*",
